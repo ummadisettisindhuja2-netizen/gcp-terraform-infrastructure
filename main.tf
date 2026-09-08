@@ -3,13 +3,6 @@ provider "google" {
   region  = var.region
   zone    = var.zone
 }
-
-provider "google" {
-  project = var.project_id
-  region  = var.region
-  zone    = var.zone
-}
-
 resource "google_compute_network" "devops_vpc" {
   name                    = "devops-vpc"
   auto_create_subnetworks = false
