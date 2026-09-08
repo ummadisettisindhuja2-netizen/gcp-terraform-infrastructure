@@ -1,1 +1,1 @@
-Add Terraform infrastructure outputs
+output "instance_name" {
